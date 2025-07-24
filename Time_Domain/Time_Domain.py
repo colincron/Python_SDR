@@ -10,6 +10,7 @@ print(sdr.valid_gains_db)
 sdr.gain = 49.6
 print("SDR Gain: " + str(sdr.gain))
 
+sdr.read_samples(2048) #best practice as the first ~2K do not have much signal power
 x = sdr.read_samples(4096)
 sdr.close()
 

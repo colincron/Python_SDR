@@ -6,3 +6,5 @@ lib64/
 pyvenv.cfg
 lib64
 share/
+share/man/man1
+images/
