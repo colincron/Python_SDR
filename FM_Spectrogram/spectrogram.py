@@ -26,3 +26,4 @@ plt.xlabel("Frequency [MHz]")
 plt.ylabel("Time [s]")
 plt.savefig("../images/spectrogram.svg", bbox_inches='tight')
 plt.show()
+
